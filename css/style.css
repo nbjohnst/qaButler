@@ -1,0 +1,97 @@
+.parentDiv{
+  display: flex;
+  width: 800px;
+}
+
+.child1 {
+  background-color: grey;
+  flex-direction: column;
+  flex: 1;
+  border: 15px solid grey;
+}
+
+.child2 {
+  background-color: pink;
+  flex: 9;
+  border: 3px solid black;
+}
+
+p:hover { 
+    color: white;
+}
+
+.closed {
+  display: none;
+}
+
+p {
+  margin-left: 13px;
+}
+
+.topic {
+  background-color: white;
+  margin: 2px;
+  background-color: aqua;
+  border: 15px teal;
+  border-radius: 5px;
+}
+
+.topic:hover { 
+  background-color: skyblue;
+  color: white;
+}
+
+.bottomMenuRow{
+  width: 800px;
+  height: 45px;
+  background-color: grey;
+}
+
+.bottomMenuContainer {
+  display: flex;
+  margin: 0 auto; 
+  width: 250px;
+  height: 40px;
+  background-color: pink;
+}
+
+.discoveryCall { 
+  width: 120px;
+  height: 40px;
+  background-color: teal;
+  border: 3px solid black;
+  border-top: none;
+}
+
+.followUpCall { 
+  width: 120px;
+  height: 40px;
+  background-color: yellow;
+  border: 3px solid black;
+  border-top: none;
+  border-left: none;
+  padding-right: 10px;
+}
+
+.voicemail { 
+  width: 120px;
+  height: 40px;
+  background-color: orange;
+  border: 3px solid black;
+  border-top: none;
+}
+
+.critical {
+  color:red;
+  font-weight: bold;
+}
+
+.orange{
+  background-color: orange;
+  text-decoration: line-through;
+}
+
+.connectTab {
+  transform:translate(0px,-7%);
+  height:107%
+}
